@@ -1,0 +1,489 @@
+[1587128252.887][INFO]: COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--ignore-certificate-errors", "--no-sandbox", "--disable-gpu", "start-maximized", "disable-infobars", "--disable-extensions", "log-level=3" ],
+            "excludeSwitches": [ "ignore-certificate-errors" ],
+            "extensions": [  ]
+         },
+         "platformName": "any"
+      },
+      "firstMatch": [ {
+
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--ignore-certificate-errors", "--no-sandbox", "--disable-gpu", "start-maximized", "disable-infobars", "--disable-extensions", "log-level=3" ],
+         "excludeSwitches": [ "ignore-certificate-errors" ],
+         "extensions": [  ]
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[1587128252.891][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1587128252.892][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1587128252.896][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-extensions --disable-extensions-except="C:\Users\aayus\AppData\Local\Temp\scoped_dir10588_19227\internal" --disable-gpu --disable-hang-monitor --disable-infobars --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --log-level=3 --metrics-recording-only --no-first-run --no-sandbox --password-store=basic --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\aayus\AppData\Local\Temp\scoped_dir10588_17474" data:,
+[1587128253.489][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1587128255.483][WARNING]: Timed out connecting to Chrome, retrying...
+[1587128255.484][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1587128257.505][INFO]: RESPONSE InitSession {
+   "acceptInsecureCerts": false,
+   "acceptSslCerts": false,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e)",
+      "userDataDir": "C:\\Users\\aayus\\AppData\\Local\\Temp\\scoped_dir10588_17474"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "goog:chromeOptions": {
+      "debuggerAddress": "localhost:62533"
+   },
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Windows NT",
+   "rotatable": false,
+   "~~~": "..."
+}
+[1587128257.508][INFO]: COMMAND Navigate {
+   "sessionId": "8096f0ee78f42c2c5e649cfeecbf09b1",
+   "url": "http://127.0.0.1:5000/"
+}
+[1587128257.508][INFO]: Waiting for pending navigations...
+[1587128257.524][INFO]: Done waiting for pending navigations. Status: ok
+[1587128257.611][INFO]: Waiting for pending navigations...
+[1587128258.163][INFO]: Done waiting for pending navigations. Status: ok
+[1587128258.163][INFO]: RESPONSE Navigate
+[1587128258.165][INFO]: COMMAND FindElement {
+   "sessionId": "8096f0ee78f42c2c5e649cfeecbf09b1",
+   "using": "name",
+   "value": "numseats"
+}
+[1587128258.165][INFO]: Waiting for pending navigations...
+[1587128258.166][INFO]: Done waiting for pending navigations. Status: ok
+[1587128258.194][INFO]: Waiting for pending navigations...
+[1587128258.200][INFO]: Done waiting for pending navigations. Status: ok
+[1587128258.200][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.595221263913825-1"
+}
+[1587128258.202][INFO]: COMMAND TypeElement {
+   "id": "0.595221263913825-1",
+   "sessionId": "8096f0ee78f42c2c5e649cfeecbf09b1",
+   "text": "1",
+   "value": [ "1" ]
+}
+[1587128258.202][INFO]: Waiting for pending navigations...
+[1587128258.203][INFO]: Done waiting for pending navigations. Status: ok
+[1587128258.243][INFO]: Waiting for pending navigations...
+[1587128258.247][INFO]: Done waiting for pending navigations. Status: ok
+[1587128258.247][INFO]: RESPONSE TypeElement
+[1587128258.249][INFO]: COMMAND FindElement {
+   "sessionId": "8096f0ee78f42c2c5e649cfeecbf09b1",
+   "using": "xpath",
+   "value": "/html/body/table/tbody/tr[1]/td[7]/button"
+}
+[1587128258.249][INFO]: Waiting for pending navigations...
+[1587128258.250][INFO]: Done waiting for pending navigations. Status: ok
+[1587128258.268][INFO]: Waiting for pending navigations...
+[1587128258.272][INFO]: Done waiting for pending navigations. Status: ok
+[1587128258.272][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.595221263913825-2"
+}
+[1587128258.276][INFO]: COMMAND ClickElement {
+   "id": "0.595221263913825-2",
+   "sessionId": "8096f0ee78f42c2c5e649cfeecbf09b1"
+}
+[1587128258.276][INFO]: Waiting for pending navigations...
+[1587128258.279][INFO]: Done waiting for pending navigations. Status: ok
+[1587128258.334][INFO]: Waiting for pending navigations...
+[1587128258.500][INFO]: Done waiting for pending navigations. Status: ok
+[1587128258.500][INFO]: RESPONSE ClickElement
+[1587128258.502][INFO]: COMMAND FindElement {
+   "sessionId": "8096f0ee78f42c2c5e649cfeecbf09b1",
+   "using": "tag name",
+   "value": "body"
+}
+[1587128258.502][INFO]: Waiting for pending navigations...
+[1587128258.502][INFO]: Done waiting for pending navigations. Status: ok
+[1587128258.515][INFO]: Waiting for pending navigations...
+[1587128258.516][INFO]: Done waiting for pending navigations. Status: ok
+[1587128258.516][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.9381359861723921-1"
+}
+[1587128258.519][INFO]: COMMAND GetElementText {
+   "id": "0.9381359861723921-1"
+}
+[1587128258.519][INFO]: Waiting for pending navigations...
+[1587128258.520][INFO]: Done waiting for pending navigations. Status: ok
+[1587128258.534][INFO]: Waiting for pending navigations...
+[1587128258.535][INFO]: Done waiting for pending navigations. Status: ok
+[1587128258.535][INFO]: RESPONSE GetElementText "The recommended seats are: c3"
+[1587128258.537][INFO]: COMMAND Navigate {
+   "sessionId": "8096f0ee78f42c2c5e649cfeecbf09b1",
+   "url": "http://127.0.0.1:5000/"
+}
+[1587128258.537][INFO]: Waiting for pending navigations...
+[1587128258.538][INFO]: Done waiting for pending navigations. Status: ok
+[1587128258.579][INFO]: Waiting for pending navigations...
+[1587128258.613][INFO]: Done waiting for pending navigations. Status: ok
+[1587128258.613][INFO]: RESPONSE Navigate
+[1587128258.616][INFO]: COMMAND FindElement {
+   "sessionId": "8096f0ee78f42c2c5e649cfeecbf09b1",
+   "using": "name",
+   "value": "numseats"
+}
+[1587128258.616][INFO]: Waiting for pending navigations...
+[1587128258.617][INFO]: Done waiting for pending navigations. Status: ok
+[1587128258.622][INFO]: Waiting for pending navigations...
+[1587128258.622][INFO]: Done waiting for pending navigations. Status: ok
+[1587128258.623][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.53613676939958-1"
+}
+[1587128258.624][INFO]: COMMAND TypeElement {
+   "id": "0.53613676939958-1",
+   "sessionId": "8096f0ee78f42c2c5e649cfeecbf09b1",
+   "text": "2",
+   "value": [ "2" ]
+}
+[1587128258.624][INFO]: Waiting for pending navigations...
+[1587128258.625][INFO]: Done waiting for pending navigations. Status: ok
+[1587128258.650][INFO]: Waiting for pending navigations...
+[1587128258.651][INFO]: Done waiting for pending navigations. Status: ok
+[1587128258.651][INFO]: RESPONSE TypeElement
+[1587128258.652][INFO]: COMMAND FindElement {
+   "sessionId": "8096f0ee78f42c2c5e649cfeecbf09b1",
+   "using": "xpath",
+   "value": "/html/body/table/tbody/tr[1]/td[7]/button"
+}
+[1587128258.652][INFO]: Waiting for pending navigations...
+[1587128258.654][INFO]: Done waiting for pending navigations. Status: ok
+[1587128258.664][INFO]: Waiting for pending navigations...
+[1587128258.665][INFO]: Done waiting for pending navigations. Status: ok
+[1587128258.665][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.53613676939958-2"
+}
+[1587128258.667][INFO]: COMMAND ClickElement {
+   "id": "0.53613676939958-2",
+   "sessionId": "8096f0ee78f42c2c5e649cfeecbf09b1"
+}
+[1587128258.667][INFO]: Waiting for pending navigations...
+[1587128258.668][INFO]: Done waiting for pending navigations. Status: ok
+[1587128258.714][INFO]: Waiting for pending navigations...
+[1587128258.875][INFO]: Done waiting for pending navigations. Status: ok
+[1587128258.875][INFO]: RESPONSE ClickElement
+[1587128258.877][INFO]: COMMAND FindElement {
+   "sessionId": "8096f0ee78f42c2c5e649cfeecbf09b1",
+   "using": "tag name",
+   "value": "body"
+}
+[1587128258.878][INFO]: Waiting for pending navigations...
+[1587128258.879][INFO]: Done waiting for pending navigations. Status: ok
+[1587128258.884][INFO]: Waiting for pending navigations...
+[1587128258.885][INFO]: Done waiting for pending navigations. Status: ok
+[1587128258.885][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8266382933410663-1"
+}
+[1587128258.886][INFO]: COMMAND GetElementText {
+   "id": "0.8266382933410663-1"
+}
+[1587128258.886][INFO]: Waiting for pending navigations...
+[1587128258.887][INFO]: Done waiting for pending navigations. Status: ok
+[1587128258.898][INFO]: Waiting for pending navigations...
+[1587128258.899][INFO]: Done waiting for pending navigations. Status: ok
+[1587128258.899][INFO]: RESPONSE GetElementText "The recommended seats are: c3 c2"
+[1587128258.901][INFO]: COMMAND Navigate {
+   "sessionId": "8096f0ee78f42c2c5e649cfeecbf09b1",
+   "url": "http://127.0.0.1:5000/"
+}
+[1587128258.901][INFO]: Waiting for pending navigations...
+[1587128258.902][INFO]: Done waiting for pending navigations. Status: ok
+[1587128258.948][INFO]: Waiting for pending navigations...
+[1587128258.949][INFO]: Done waiting for pending navigations. Status: ok
+[1587128258.949][INFO]: RESPONSE Navigate
+[1587128258.951][INFO]: COMMAND FindElement {
+   "sessionId": "8096f0ee78f42c2c5e649cfeecbf09b1",
+   "using": "name",
+   "value": "numseats"
+}
+[1587128258.951][INFO]: Waiting for pending navigations...
+[1587128258.952][INFO]: Done waiting for pending navigations. Status: ok
+[1587128258.959][INFO]: Waiting for pending navigations...
+[1587128258.960][INFO]: Done waiting for pending navigations. Status: ok
+[1587128258.960][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5031474594487619-1"
+}
+[1587128258.963][INFO]: COMMAND TypeElement {
+   "id": "0.5031474594487619-1",
+   "sessionId": "8096f0ee78f42c2c5e649cfeecbf09b1",
+   "text": "3",
+   "value": [ "3" ]
+}
+[1587128258.963][INFO]: Waiting for pending navigations...
+[1587128258.964][INFO]: Done waiting for pending navigations. Status: ok
+[1587128258.994][INFO]: Waiting for pending navigations...
+[1587128258.995][INFO]: Done waiting for pending navigations. Status: ok
+[1587128258.995][INFO]: RESPONSE TypeElement
+[1587128258.996][INFO]: COMMAND FindElement {
+   "sessionId": "8096f0ee78f42c2c5e649cfeecbf09b1",
+   "using": "xpath",
+   "value": "/html/body/table/tbody/tr[1]/td[7]/button"
+}
+[1587128258.996][INFO]: Waiting for pending navigations...
+[1587128258.996][INFO]: Done waiting for pending navigations. Status: ok
+[1587128259.000][INFO]: Waiting for pending navigations...
+[1587128259.001][INFO]: Done waiting for pending navigations. Status: ok
+[1587128259.001][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5031474594487619-2"
+}
+[1587128259.002][INFO]: COMMAND ClickElement {
+   "id": "0.5031474594487619-2",
+   "sessionId": "8096f0ee78f42c2c5e649cfeecbf09b1"
+}
+[1587128259.002][INFO]: Waiting for pending navigations...
+[1587128259.003][INFO]: Done waiting for pending navigations. Status: ok
+[1587128259.048][INFO]: Waiting for pending navigations...
+[1587128259.206][INFO]: Done waiting for pending navigations. Status: ok
+[1587128259.206][INFO]: RESPONSE ClickElement
+[1587128259.209][INFO]: COMMAND FindElement {
+   "sessionId": "8096f0ee78f42c2c5e649cfeecbf09b1",
+   "using": "tag name",
+   "value": "body"
+}
+[1587128259.209][INFO]: Waiting for pending navigations...
+[1587128259.210][INFO]: Done waiting for pending navigations. Status: ok
+[1587128259.219][INFO]: Waiting for pending navigations...
+[1587128259.221][INFO]: Done waiting for pending navigations. Status: ok
+[1587128259.221][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8952671379888268-1"
+}
+[1587128259.223][INFO]: COMMAND GetElementText {
+   "id": "0.8952671379888268-1"
+}
+[1587128259.224][INFO]: Waiting for pending navigations...
+[1587128259.226][INFO]: Done waiting for pending navigations. Status: ok
+[1587128259.239][INFO]: Waiting for pending navigations...
+[1587128259.241][INFO]: Done waiting for pending navigations. Status: ok
+[1587128259.241][INFO]: RESPONSE GetElementText "The recommended seats are: c3 c2 c1"
+[1587128259.243][INFO]: COMMAND Navigate {
+   "sessionId": "8096f0ee78f42c2c5e649cfeecbf09b1",
+   "url": "http://127.0.0.1:5000/"
+}
+[1587128259.243][INFO]: Waiting for pending navigations...
+[1587128259.245][INFO]: Done waiting for pending navigations. Status: ok
+[1587128259.319][INFO]: Waiting for pending navigations...
+[1587128259.320][INFO]: Done waiting for pending navigations. Status: ok
+[1587128259.320][INFO]: RESPONSE Navigate
+[1587128259.322][INFO]: COMMAND FindElement {
+   "sessionId": "8096f0ee78f42c2c5e649cfeecbf09b1",
+   "using": "name",
+   "value": "numseats"
+}
+[1587128259.322][INFO]: Waiting for pending navigations...
+[1587128259.324][INFO]: Done waiting for pending navigations. Status: ok
+[1587128259.333][INFO]: Waiting for pending navigations...
+[1587128259.334][INFO]: Done waiting for pending navigations. Status: ok
+[1587128259.334][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.06437310235201044-1"
+}
+[1587128259.336][INFO]: COMMAND TypeElement {
+   "id": "0.06437310235201044-1",
+   "sessionId": "8096f0ee78f42c2c5e649cfeecbf09b1",
+   "text": "4",
+   "value": [ "4" ]
+}
+[1587128259.336][INFO]: Waiting for pending navigations...
+[1587128259.337][INFO]: Done waiting for pending navigations. Status: ok
+[1587128259.374][INFO]: Waiting for pending navigations...
+[1587128259.376][INFO]: Done waiting for pending navigations. Status: ok
+[1587128259.376][INFO]: RESPONSE TypeElement
+[1587128259.378][INFO]: COMMAND FindElement {
+   "sessionId": "8096f0ee78f42c2c5e649cfeecbf09b1",
+   "using": "xpath",
+   "value": "/html/body/table/tbody/tr[1]/td[7]/button"
+}
+[1587128259.378][INFO]: Waiting for pending navigations...
+[1587128259.378][INFO]: Done waiting for pending navigations. Status: ok
+[1587128259.384][INFO]: Waiting for pending navigations...
+[1587128259.385][INFO]: Done waiting for pending navigations. Status: ok
+[1587128259.385][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.06437310235201044-2"
+}
+[1587128259.387][INFO]: COMMAND ClickElement {
+   "id": "0.06437310235201044-2",
+   "sessionId": "8096f0ee78f42c2c5e649cfeecbf09b1"
+}
+[1587128259.387][INFO]: Waiting for pending navigations...
+[1587128259.388][INFO]: Done waiting for pending navigations. Status: ok
+[1587128259.433][INFO]: Waiting for pending navigations...
+[1587128259.603][INFO]: Done waiting for pending navigations. Status: ok
+[1587128259.603][INFO]: RESPONSE ClickElement
+[1587128259.604][INFO]: COMMAND FindElement {
+   "sessionId": "8096f0ee78f42c2c5e649cfeecbf09b1",
+   "using": "tag name",
+   "value": "body"
+}
+[1587128259.604][INFO]: Waiting for pending navigations...
+[1587128259.605][INFO]: Done waiting for pending navigations. Status: ok
+[1587128259.613][INFO]: Waiting for pending navigations...
+[1587128259.615][INFO]: Done waiting for pending navigations. Status: ok
+[1587128259.615][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6853440381202176-1"
+}
+[1587128259.616][INFO]: COMMAND GetElementText {
+   "id": "0.6853440381202176-1"
+}
+[1587128259.616][INFO]: Waiting for pending navigations...
+[1587128259.617][INFO]: Done waiting for pending navigations. Status: ok
+[1587128259.630][INFO]: Waiting for pending navigations...
+[1587128259.632][INFO]: Done waiting for pending navigations. Status: ok
+[1587128259.632][INFO]: RESPONSE GetElementText "The recommended seats are: c2 c3 c4 c5"
+[1587128259.634][INFO]: COMMAND Navigate {
+   "sessionId": "8096f0ee78f42c2c5e649cfeecbf09b1",
+   "url": "http://127.0.0.1:5000/"
+}
+[1587128259.634][INFO]: Waiting for pending navigations...
+[1587128259.635][INFO]: Done waiting for pending navigations. Status: ok
+[1587128259.701][INFO]: Waiting for pending navigations...
+[1587128259.702][INFO]: Done waiting for pending navigations. Status: ok
+[1587128259.702][INFO]: RESPONSE Navigate
+[1587128259.703][INFO]: COMMAND FindElement {
+   "sessionId": "8096f0ee78f42c2c5e649cfeecbf09b1",
+   "using": "name",
+   "value": "numseats"
+}
+[1587128259.703][INFO]: Waiting for pending navigations...
+[1587128259.704][INFO]: Done waiting for pending navigations. Status: ok
+[1587128259.711][INFO]: Waiting for pending navigations...
+[1587128259.712][INFO]: Done waiting for pending navigations. Status: ok
+[1587128259.712][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.9714250046104529-1"
+}
+[1587128259.714][INFO]: COMMAND TypeElement {
+   "id": "0.9714250046104529-1",
+   "sessionId": "8096f0ee78f42c2c5e649cfeecbf09b1",
+   "text": "5",
+   "value": [ "5" ]
+}
+[1587128259.714][INFO]: Waiting for pending navigations...
+[1587128259.715][INFO]: Done waiting for pending navigations. Status: ok
+[1587128259.748][INFO]: Waiting for pending navigations...
+[1587128259.748][INFO]: Done waiting for pending navigations. Status: ok
+[1587128259.748][INFO]: RESPONSE TypeElement
+[1587128259.750][INFO]: COMMAND FindElement {
+   "sessionId": "8096f0ee78f42c2c5e649cfeecbf09b1",
+   "using": "xpath",
+   "value": "/html/body/table/tbody/tr[1]/td[7]/button"
+}
+[1587128259.750][INFO]: Waiting for pending navigations...
+[1587128259.750][INFO]: Done waiting for pending navigations. Status: ok
+[1587128259.755][INFO]: Waiting for pending navigations...
+[1587128259.757][INFO]: Done waiting for pending navigations. Status: ok
+[1587128259.757][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.9714250046104529-2"
+}
+[1587128259.759][INFO]: COMMAND ClickElement {
+   "id": "0.9714250046104529-2",
+   "sessionId": "8096f0ee78f42c2c5e649cfeecbf09b1"
+}
+[1587128259.759][INFO]: Waiting for pending navigations...
+[1587128259.760][INFO]: Done waiting for pending navigations. Status: ok
+[1587128259.815][INFO]: Waiting for pending navigations...
+[1587128259.987][INFO]: Done waiting for pending navigations. Status: ok
+[1587128259.987][INFO]: RESPONSE ClickElement
+[1587128259.988][INFO]: COMMAND FindElement {
+   "sessionId": "8096f0ee78f42c2c5e649cfeecbf09b1",
+   "using": "tag name",
+   "value": "body"
+}
+[1587128259.988][INFO]: Waiting for pending navigations...
+[1587128259.989][INFO]: Done waiting for pending navigations. Status: ok
+[1587128259.998][INFO]: Waiting for pending navigations...
+[1587128259.999][INFO]: Done waiting for pending navigations. Status: ok
+[1587128259.999][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.10242829868029735-1"
+}
+[1587128260.001][INFO]: COMMAND GetElementText {
+   "id": "0.10242829868029735-1"
+}
+[1587128260.001][INFO]: Waiting for pending navigations...
+[1587128260.002][INFO]: Done waiting for pending navigations. Status: ok
+[1587128260.017][INFO]: Waiting for pending navigations...
+[1587128260.019][INFO]: Done waiting for pending navigations. Status: ok
+[1587128260.019][INFO]: RESPONSE GetElementText "The recommended seats are: c1 c2 c3 c4 c5"
+[1587128260.021][INFO]: COMMAND CloseWindow {
+
+}
+[1587128260.095][INFO]: RESPONSE CloseWindow [  ]

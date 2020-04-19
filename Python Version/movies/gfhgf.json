@@ -1,0 +1,51 @@
+{
+    "genre": "fghfgh",
+    "imdb": "hfghfgh",
+    "seats": {
+        "a1": {
+            "column": "1",
+            "id": "a1",
+            "row": "a",
+            "status": "AVAILABLE"
+        },
+        "a2": {
+            "column": "2",
+            "id": "a2",
+            "row": "a",
+            "status": "AVAILABLE"
+        },
+        "b1": {
+            "column": "1",
+            "id": "b1",
+            "row": "b",
+            "status": "AVAILABLE"
+        },
+        "b2": {
+            "column": "2",
+            "id": "b2",
+            "row": "b",
+            "status": "AVAILABLE"
+        },
+        "c1": {
+            "column": "1",
+            "id": "c1",
+            "row": "c",
+            "status": "AVAILABLE"
+        },
+        "c2": {
+            "column": "2",
+            "id": "c2",
+            "row": "c",
+            "status": "AVAILABLE"
+        }
+    },
+    "summary": "ghfgh",
+    "title": "gfhgf",
+    "venue": {
+        "layout": {
+            "columns": "2",
+            "rows": "3"
+        }
+    },
+    "year": "gfhfghg"
+}
